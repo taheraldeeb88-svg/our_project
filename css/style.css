@@ -1,0 +1,125 @@
+/* تنسيقات عامة للموقع */
+body {
+    font-family: sans-serif;
+    direction: rtl;
+    text-align: right;
+}
+
+/* شريط التنقل Navigation */
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar {
+    background: #fff;
+    padding: 0 30px !important;
+}
+.navbar-brand img {
+    height: 40px;
+    padding: 5px 0;
+}
+.navbar-nav li a {
+    float: right;
+    text-align: right;
+}
+.nav-link {
+    color: #555 !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* السلايدر Slider */
+#slider {
+    width: 100%;
+}
+.carousel-item img {
+    height: 85vh;
+    object-fit: cover;
+}
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial !important;
+}
+.carousel-caption h5 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* قسم الخدمات Services */
+#services {
+    padding: 80px 0;
+    background: #f8f9fa;
+}
+#services h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+.icon {
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #007bff;
+    border-radius: 50%;
+    color: #007bff;
+    line-height: 40px;
+}
+
+/* قسم من نحن About Us */
+#about-us {
+    padding: 80px 0;
+}
+.about-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #007bff;
+    margin-top: 20px;
+}
+.progress {
+    border-radius: 0;
+    margin-bottom: 20px;
+    height: 25px;
+}
+.progress-bar {
+    background: #007bff !important;
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* قسم اتصل بنا Contact */
+#contact {
+    padding: 80px 0;
+    background: #efefef;
+}
+#contact h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+.contact-form {
+    padding: 15px;
+}
+.form-control {
+    border-radius: 0 !important;
+    border: none !important;
+}
+.btn-primary {
+    background: #007bff !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 10px 30px;
+}
+.contact-info .follow {
+    background: #fff;
+    padding: 10px;
+    margin: 15px 0;
+}
+.contact-info .fa {
+    margin-left: 10px;
+    color: #007bff;
+}
